@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top "><!-- opaque-navbar-->
     <div class="container">
       <router-link class="navbar-brand" to="/live">
         <img src="../assets/yesport-logo-white.png" />
@@ -64,7 +64,23 @@ export default {
 };
 </script>
 <style scoped>
+.navbar{
+  border-bottom: 1px solid darkgray;
+}
 .navbar-brand img {
   height: 40px;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
 }
 </style>
