@@ -1,6 +1,19 @@
 <template>
     <div class="bets">
-        <p>Hello</p>
+        <div class="container">
+        <br/>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bettings">
+                                <p>Hello</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -11,4 +24,7 @@ export default {
 </script>
 
 <style scoped>
+.bettings{
+    padding-top: 60px;
+}
 </style>

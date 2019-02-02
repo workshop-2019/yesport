@@ -44,14 +44,14 @@
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">
+            <router-link class="nav-link" to="/login">
               <button type="button" class="btn btn-secondary">
                 SE CONNECTER
               </button>
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">
+            <router-link class="nav-link" to="/register">
               <button type="button" class="btn btn-secondary">
                 S'INSCRIRE
               </button>

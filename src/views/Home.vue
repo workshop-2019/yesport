@@ -56,6 +56,7 @@
                     </div>
                     <!-- bloc 1 -->
                     <div class="row">
+                        
                         <div class="col-md-12 ">
                             <br/>
                             <div class="row">
@@ -153,7 +154,8 @@
                         </div>
                     </div>
                     <br />
-                </div>               
+                </div>
+               
             </div>
         </div>
     </div>

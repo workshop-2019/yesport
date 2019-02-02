@@ -1,12 +1,12 @@
 <template>
-    <div class="ticketing">
+    <div class="register register-bg">
         <div class="container">
         <br/>
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="ticketing-2">
+                            <div class="registering">
                                 <p>Hello</p>
                             </div>
                         </div>
@@ -19,12 +19,12 @@
 
 <script>
 export default {
-  name: "Ticketing"
+  name: "Register"
 };
 </script>
 
 <style scoped>
-.ticketing-2{
+.registering{
     padding-top: 60px;
 }
 </style>
