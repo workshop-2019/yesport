@@ -164,29 +164,25 @@
                     </div>
                     <br />
                     <!-- footer -->
-                    <footer class="footer">
-                
-                    <div class="row">
-		<div class="col-md-4 footer-content">
-            
-			    <img src="../assets/yesport-logo-white.png" width="200"/> 
-            
-			<address>
-				 <strong>YNOV - YESPORT TEAM</strong><br /> 12 rue Anatole France<br /> 92000 - Nanterre<br /> <abbr title="Phone">Tél:</abbr> +33(0)6 00 00 00 00
-			</address>
-		</div>
-		<div class="col-md-4">
-			<p>
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. </small>
-			</p>
-		</div>
-		<div class="col-md-4">
-			<p>
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. </small>
-			</p>
-		</div>
-	</div>
-                       
+                    <footer class="footer">                
+                        <div class="row">
+                            <div class="col-md-4 footer-content">                            
+                                <img src="../assets/yesport-logo-white.png" width="200"/>                     
+                                <address>
+                                    <strong>YNOV - YESPORT TEAM</strong><br /> 12 rue Anatole France<br /> 92000 - Nanterre<br /> <abbr title="Phone">Tél:</abbr> +33(0)6 00 00 00 00
+                                </address>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien.
+                                </p>
+                            </div>
+                        </div>                       
                     </footer>
                 </div>
                

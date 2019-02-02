@@ -64,12 +64,14 @@
   min-height: 100%;
   width: 100%;
   height: 70vh;
+  padding-top: 60px;
 }
 .live_infos {
   height: 10vh;
   min-height: 50px;
 }
 .live_chat {
+  padding-top: 60px;
   height: 55vh;
   min-height: 150px;
 }

@@ -22,18 +22,23 @@
             />
           </form>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">
-              Home
+            <router-link class="nav-link" to="/home">
+              HOME
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">
-              Paris Sportif
+            <router-link class="nav-link" to="/bets">
+              PARIS EN DIRECT
             </router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/live">
-              Live
+              <div><span class="dot"></span> LIVE </div>
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/ticketing">
+              BILLETTERIE
             </router-link>
           </li>
         </ul>
@@ -41,14 +46,14 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/">
               <button type="button" class="btn btn-secondary">
-                Se Connecter
+                SE CONNECTER
               </button>
             </router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/">
               <button type="button" class="btn btn-secondary">
-                S'inscrire
+                S'INSCRIRE
               </button>
             </router-link>
           </li>
@@ -71,6 +76,18 @@ export default {
   height: 40px;
 }
 
+a:hover, a:active{
+  font-weight: bold;
+  color: white;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
 .opaque-navbar {
     background-color: rgba(0,0,0,0.5);
     height: 60px;
@@ -83,4 +100,6 @@ export default {
     height: 60px;
     transition: background-color .5s ease 0s;
 }
+
+
 </style>
